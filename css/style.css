@@ -1,0 +1,444 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a{
+    text-decoration: none;
+}
+
+.container1{
+    max-width: 1000px;
+    background-color: black;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.atalhos{
+    display: block;
+}
+.atalhos a{
+    color: white;
+}
+
+.atalhos a:hover{
+    text-decoration: underline;
+}
+.atalhos ul{
+    font-size: 1.3rem;
+    display: flex;
+    gap: 2rem;
+}
+.atalhos ul li{
+    color: white;
+    list-style: none;
+}
+
+.container2{
+    padding: 1.5rem;
+    max-width: 1000px;
+    background-color: black;
+    height: 400px;
+    display: flex;
+}
+
+.conteudo{
+    background-color: black;
+    max-width: 30rem;
+}
+
+.conteudo h1{
+    margin-top: 3.5rem;
+    color: white;
+    font-size: 3rem;
+}
+
+.conteudo p{
+    color: grey;
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+
+.conteudo a{
+    background-color: orange;
+    padding: 20px 35px;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.conteudo a:hover{
+    background-color: rgb(206, 134, 0);
+}
+
+.img1 {
+    margin-left: 2rem;
+    max-width: 200px;
+
+}
+.img1 img{
+    border-radius: 4px;
+    max-width: 450px;
+    height: 550px;
+    object-fit:cover
+}
+
+.container3{
+    padding: 10rem 1.5rem;
+    max-width: 1000px;
+}
+
+.container3 h1{
+    font-size: 3.5rem;
+}
+
+.bicicletas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bicicletas a{
+    text-decoration: none;
+    color: black;
+}
+
+.bicicletas a img{
+    width: 300px;
+    border-radius: 4px;
+}
+
+.bicicletas a p{
+    color: grey;
+}
+
+.bicicletas h2{
+    margin: 0px;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.bicicletas a h2::before{
+    display: inline-block;
+    margin: 8px 4px;
+    content: "";
+    width: 12px;
+    height: 8px;
+    text-align: center;
+    background-color: orange;
+    transition: 150ms;
+}
+
+.bicicletas a:hover h2::before{
+    width: 24px;
+}
+
+.bicicletas a p {
+    margin-left: 20px;
+}
+
+.container4{
+    max-width: 1000px;
+    height: 750px;
+    padding: 5rem 1.5rem;
+    padding-top: 5rem;
+    background-color: rgb(20, 20, 20);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tecnologia{
+    margin-top: -8rem;
+    grid-column: 2;
+    grid-row: 1/4;
+    margin-left: 1.5rem;
+}
+
+.tecnologia img{
+    display: block;
+    justify-content: center;
+    max-width: 400px;
+    height: 1000px;
+    border-radius: 4px;
+}
+
+.modelos{
+    grid-row: 1;
+    max-width: 450px;
+}
+
+.modelos h2{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.modelos h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.modelos p{
+    color: grey;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.modelos a{
+    display: block;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: orange;
+}
+
+.modelos a:hover{
+    color: white;
+}
+
+.items{
+    margin-top: 5rem;
+    display: flex;
+    grid-row: 2;
+    gap: 1.5rem;
+}
+
+.item{
+    max-width: 215px;
+}
+
+.item h3{
+    margin: 0px;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+.item p{
+    line-height: 1.5rem;
+    color:grey
+}
+
+.parceiros{
+    padding: 4rem 0rem; 
+    max-width: 1000px;
+}
+
+.parceiros h1{
+    margin: 3rem 1.5rem;
+    font-size: 3rem;
+    max-width: 1000px;
+}
+
+.parceiros-item{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem 2rem;
+    justify-content: space-evenly;
+    width: 900px;
+    margin-bottom: 3rem;
+}
+
+.parceiros-item img{
+    justify-self: center;
+}
+
+.depoimento{
+    margin: 0x;
+    background-color: orange;
+    max-width: 1000px;
+    width: 1050px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0px;
+}
+
+.depoimento img{
+    display: block;
+    max-width: 500px;
+    margin: 0px;
+}
+
+.depoimento-item{
+    min-width: 20rem;
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    max-width: 300px;
+    margin: auto auto;
+}
+
+.depoimento-item p{
+    color: white;
+}
+#autor{
+    font-size: 1rem;
+}
+
+.seguros{
+    background-color: rgb(20, 20, 20);
+    margin: 0;
+    padding: 3rem 1.5rem;
+    max-width: 1000px;
+}
+
+.seguros h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.opcoes{
+    align-items: center;
+    display: flex;
+    max-width: 1000px;
+    height: 450px;
+    gap: 4rem;
+}
+
+.opcoes h1{
+
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+.opcoes p{
+    font-size: 0.8rem;
+    grid-column: 2;margin-top: 0px;
+}
+.opcao1 h1{
+    color: white;
+}
+
+.opcao1{
+    border-radius: 4px;
+    justify-items: center;
+    width: 400px;
+    height: 350px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#tipo1,p{
+    color: grey;
+}
+
+.lista a{
+    margin: 1rem 0;
+    grid-column: 2;
+    width: 110px;
+    padding: 20px 35px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(56, 56, 56);
+}
+
+.lista a:hover{
+    background-color: rgb(82, 82, 82);
+}
+
+.lista img{
+    align-self: start;
+}
+
+.lista{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 20px ;
+    margin: 1.5rem;
+    width: 180px;
+    max-width: 300px;
+}
+
+.lista p{
+    font-size: 1rem;
+    color: white;
+}
+
+.opcao2{
+    border-radius: 4px;
+    top: -2rem;
+    padding-right: 2rem;
+    justify-items: center;
+    width: 350px;
+    height: 430px;
+    display: grid;
+    background-color: black;
+}
+
+#tipo2{
+    color: orange;
+}
+
+.opcao2 h1{
+    color: white;
+}
+
+.opcao2 p{
+    color: grey;
+}
+
+.opcao2 a{
+    color: black;
+    background-color: orange;
+}
+
+.opcao2 a:hover{
+    background-color: rgb(180, 117, 0);
+}
+
+.final{
+    background-color: black;
+    max-width: 1000px;
+    padding: 3rem 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.final a:hover{
+    color: white;
+}
+
+.vazia{
+    padding-top: 1rem;
+}
+.contato{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    width: 250px;
+}
+
+.contato a{
+    color: grey;
+    margin-right: 2rem;
+}
+
+.contato p{
+    margin: 0px;
+}
+.contato h3{
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.contato hr{
+    color: rgb(29, 29, 29);
+}
+
+.informacoes{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    width: 300px;
+}
+
+.informacoes h3{
+    color: white;
+}
+
+.informacoes a{
+    display: block;
+    color: grey;
+    margin-right: 2rem;
+}
