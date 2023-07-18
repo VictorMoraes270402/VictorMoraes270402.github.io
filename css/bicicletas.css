@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    padding: 0;
+    background-color: black;
+
+}
+.container1{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.atalhos{
+    display: block;
+}
+.atalhos a{
+    color: white;
+}
+
+.atalhos a:hover{
+    text-decoration: underline;
+}
+.atalhos ul{
+    font-size: 1.3rem;
+    display: flex;
+    gap: 2rem;
+}
+.atalhos ul li{
+    color: white;
+    list-style: none;
+}
+
+.titulo-bg{
+    background-color: rgb(20, 20, 20);
+}
+
+.titulo{
+    padding: 2rem 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.titulo h1,h2{
+    margin: 0;
+}
+
+.titulo h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.titulo h2{
+    color: grey;
+    margin-top: 2.5rem;
+}
+
+.bicicletas-bg1, .bicicletas-bg2, .bicicletas-bg3{
+    padding: 3rem;
+}
+
+.bicicletas img{
+    align-self: start;
+    display: block;
+    max-width: 100%;
+    grid-row: 1/5;
+    margin-left: -1.5rem;
+}
+
+.bicicletas{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.bicicletas h2, p{
+    grid-column: 2;
+    margin-bottom: 1.5rem;
+}
+
+.bicicletas p{
+    line-height: 1.4rem;
+}
+.bicicletas h2{
+    color: black;
+    font-size: 2rem;
+}
+
+.bicicletas p ,span{
+    color: grey;
+}
+
+.descricao{
+    margin-top: -2rem;
+    height: 150px;
+    width: 200px;
+}
+
+.bicicletas-icone{
+    display: flex;
+    grid-column: 1;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.compra {
+    margin-left: 1.5rem;
+    display: flex;
+}
+
+.compra a{
+    gap: 0.5rem;
+    display: flex;
+    color: black;
+    padding: 1.5rem 2rem;
+    background-color: orange;
+    border-radius: 8px;
+    align-self: end;
+    justify-self: end;
+    width: 150px;
+}
+
+.compra a img{
+    align-self: center;
+    margin-left: 0.5rem;
+}
+
+.compra a:hover img{
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.final-bg{
+    background-color: black;
+}
+
+.final{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 3rem 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.final p{
+    color: grey;
+}
+
+.final a:hover{
+    color: white;
+}
+
+.vazia{
+    padding-top: 1rem;
+}
+.contato{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    width: 250px;
+}
+
+.contato a{
+    color: grey;
+    margin-right: 2rem;
+}
+
+.contato p{
+    margin: 0px;
+    color: grey;
+}
+.contato h3{
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.contato hr{
+    color: rgb(29, 29, 29);
+}
+
+.informacoes{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    width: 300px;
+}
+
+.informacoes h3{
+    color: white;
+}
+
+.informacoes a{
+    display: block;
+    color: grey;
+    margin-right: 2rem;
+}
