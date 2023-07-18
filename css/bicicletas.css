@@ -71,12 +71,18 @@ a{
     padding: 3rem;
 }
 
+.bicicletas-bg2{
+    background-color: rgb(20, 20, 20);
+    background: linear-gradient(to right, white 20%, rgb(20, 20, 20) 20%);
+}
+
 .bicicletas img{
     align-self: start;
     display: block;
     max-width: 100%;
     grid-row: 1/5;
     margin-left: -1.5rem;
+    border-radius: 4px;
 }
 
 .bicicletas{
@@ -85,6 +91,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
+    padding-top: 2rem;
 }
 
 .bicicletas h2, p{
@@ -100,8 +107,21 @@ a{
     font-size: 2rem;
 }
 
+.bicicletas h2:before{
+    content: "";
+    display: block;
+    margin-bottom: 8px;
+    width: 16px;
+    height: 8px;
+    background-color: orange;
+}
+
 .bicicletas p ,span{
     color: grey;
+}
+
+#titulo-branco{
+    color: white;
 }
 
 .descricao{
@@ -137,38 +157,18 @@ a{
 
 .compra a img{
     align-self: center;
-    margin-left: 0.5rem;
-}
-
-.compra a:hover img{
     margin-left: 1rem;
 }
 
+.compra a:hover img{
+    margin-left: 1.5rem;
+    transition: 200ms;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.compra a:not(:hover) img{
+    margin-left: 1rem;
+    transition: 200ms;
+}
 
 .final-bg{
     background-color: black;
@@ -208,6 +208,11 @@ a{
     margin: 0px;
     color: grey;
 }
+
+.contato p:nth-child(n):last-child{
+    columns: 1;
+}
+
 .contato h3{
     color: white;
     margin-bottom: 1.5rem;
@@ -232,3 +237,5 @@ a{
     color: grey;
     margin-right: 2rem;
 }
+
+
