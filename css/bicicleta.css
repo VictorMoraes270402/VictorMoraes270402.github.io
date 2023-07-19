@@ -136,6 +136,10 @@ img{
     background-color: orange;
 }
 
+.comprar a:hover{
+   background-color: rgb(206, 134, 0);
+}
+
 .comprar span img{
     width: 10px;
     margin-right: 2px;
