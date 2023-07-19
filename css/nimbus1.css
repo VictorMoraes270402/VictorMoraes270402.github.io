@@ -185,7 +185,7 @@ img{
     list-style: none;
     display: flex;
     color: grey;
-    width: 400px;
+    max-width: 100%;
     margin-bottom: 0.5rem;
     padding-bottom: 0.5rem;
     border-bottom: 0.5px solid grey ;
@@ -205,10 +205,61 @@ img{
 .ficha-tecnica ul{
     gap: 1rem;
     padding: 2rem;
-    width: 400px;
+    width: 370px;
     height: 200px;
     border-radius: 4px;
     background-color: black;
+}
+
+.container3{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+.container3 h1{
+    font-size: 3.5rem;
+}
+
+.bicicletas{
+    justify-self: center;
+    display: flex;
+    gap: 1rem;
+    align-content: start;
+}
+
+.bicicletas-item img{
+    max-width: 100%;
+}
+
+.bicicletas-item a{
+    color: black;
+}
+
+.bicicletas-item p{
+    color: grey;
+    margin-left: 1.3rem;
+    margin-top: 0.5em;
+}
+
+.bicicletas h2{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 0;
+}
+
+.bicicletas a h2::before{
+    display: inline-block;
+    margin: 7px 4px;
+    content: "";
+    width: 12px;
+    height: 8px;
+    text-align: center;
+    background-color: orange;
+    transition: 150ms;
+}
+
+.bicicletas a:hover h2::before{
+    width: 24px;
 }
 
 
