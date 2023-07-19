@@ -310,24 +310,6 @@ img{
     background-color: rgb(206, 134, 0);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .final-bg{
     background-color: black;
 }
@@ -358,6 +340,7 @@ img{
 }
 
 .contato a{
+    display: inline-block;
     color: grey;
     margin-right: 2rem;
 }
