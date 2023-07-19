@@ -238,7 +238,7 @@ img{
 .bicicletas-item p{
     color: grey;
     margin-left: 1.3rem;
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
 }
 
 .bicicletas h2{
@@ -261,6 +261,57 @@ img{
 .bicicletas a:hover h2::before{
     width: 24px;
 }
+
+.container4-bg{
+    background-color: rgb(22, 22, 22);
+    box-shadow: inset 0 120px white, inset 0 -120px black;
+}
+.container4{
+    padding: 4rem 1.5rem; 
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: center;
+    height: 600px;
+}
+
+.container4 img{
+    max-width: 50%;
+    object-fit: cover;
+}
+.container4-conteudo{
+    align-self: center;
+    right: 0;
+    max-width: 450px;
+    justify-content: end;
+}
+.container4-conteudo h1{
+    max-width: 450px;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+.container4-conteudo p{
+    color: grey;
+    margin-bottom: 2rem;
+}
+
+.container4-conteudo a{
+    background-color: orange;
+    padding: 20px 35px;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.container4-conteudo a:hover{
+    background-color: rgb(206, 134, 0);
+}
+
+
+
 
 
 
