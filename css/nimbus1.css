@@ -178,13 +178,39 @@ img{
 }
 
 .ficha-tecnica{
+    margin-top: -1rem;
+}
+
+.ficha-tecnica li{
+    list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    color: grey;
     width: 400px;
-    height: 400px;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.5px solid grey ;
+    justify-content: space-between;
+}
+
+.ficha-tecnica li:last-child{
+    margin-bottom: 0;
+    border: none;
+}
+
+.ficha-tecnica ul li span{
+    font-size: 1rem;
+    color: grey;
+}
+
+.ficha-tecnica ul{
+    gap: 1rem;
+    padding: 2rem;
+    width: 400px;
+    height: 200px;
     border-radius: 4px;
     background-color: black;
 }
+
 
 
 
