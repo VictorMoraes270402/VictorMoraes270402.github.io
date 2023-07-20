@@ -7,7 +7,12 @@ a{
     text-decoration: none;
 }
 
+
+.container1-bg{
+    background-color: black;
+}
 .container1{
+    margin: 0 auto;
     max-width: 1000px;
     background-color: black;
     padding: 1.5rem;
@@ -36,10 +41,14 @@ a{
     list-style: none;
 }
 
+.container2-bg{
+    background-color: black;
+}
+
 .container2{
+    margin: 0 auto;
     padding: 1.5rem;
     max-width: 1000px;
-    background-color: black;
     height: 400px;
     display: flex;
 }
@@ -85,6 +94,7 @@ a{
 }
 
 .container3{
+    margin: 0 auto;
     padding: 10rem 1.5rem;
     max-width: 1000px;
 }
@@ -136,12 +146,16 @@ a{
     margin-left: 20px;
 }
 
+
+.container4-bg{
+    background-color: rgb(20, 20, 20);
+}
 .container4{
     max-width: 1000px;
     height: 750px;
     padding: 5rem 1.5rem;
     padding-top: 5rem;
-    background-color: rgb(20, 20, 20);
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -218,6 +232,7 @@ a{
 }
 
 .parceiros{
+    margin: 0 auto;
     padding: 4rem 0rem; 
     max-width: 1000px;
 }
@@ -243,13 +258,11 @@ a{
 }
 
 .depoimento{
-    margin: 0x;
+    margin: 0 auto;
     background-color: orange;
     max-width: 1000px;
-    width: 1050px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 0px;
 }
 
 .depoimento img{
@@ -275,9 +288,11 @@ a{
     font-size: 1rem;
 }
 
-.seguros{
+.seguros-bg{
     background-color: rgb(20, 20, 20);
-    margin: 0;
+}
+.seguros{
+    margin: 0 auto;
     padding: 3rem 1.5rem;
     max-width: 1000px;
 }
@@ -389,8 +404,11 @@ a{
     background-color: rgb(180, 117, 0);
 }
 
-.final{
+.final-bg{
     background-color: black;
+}
+.final{
+    margin: 0 auto;
     max-width: 1000px;
     padding: 3rem 1.5rem;
     display: grid;
