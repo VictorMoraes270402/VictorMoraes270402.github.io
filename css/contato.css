@@ -71,7 +71,7 @@ a{
     font-size: 3rem;
 }
 
-.informacoes{
+.informacoes-container{
     grid-column: 1;
     grid-row: 2;
     border-radius: 4px 0 0  4px;
@@ -79,7 +79,8 @@ a{
     background-color: black;
 }
 
-.informacoes h3{
+.informacoes-container h3{
+    color: white;
     margin-left: 2rem;
 }
 
@@ -89,7 +90,7 @@ a{
 }
 
 .informacoes-item{
-    margin: 1rem;
+    margin-bottom: 2rem;
     display: grid;
     grid-template-columns: 1fr 10fr;
 }
@@ -105,7 +106,7 @@ a{
     color: white;
 }
 .informacoes-item p,a{
-    margin: 0;
+    margin: 0.5rem;
     color: grey;
     font-size: 1rem;
     grid-column: 2;
@@ -113,7 +114,7 @@ a{
 
 .contato-container{
     display: grid;
-    grid-template-columns: 0.5fr 4fr;
+    grid-template-columns: 2fr 3fr;
 }
 
 .formulario{
@@ -184,6 +185,7 @@ a{
 }
 
 .final p{
+    font-size: 1.2rem;
     color: grey;
 }
 
@@ -201,6 +203,7 @@ a{
 }
 
 .contato a{
+    font-size: 1.2rem;
     color: grey;
     margin-right: 2rem;
 }
@@ -229,8 +232,10 @@ a{
 }
 
 .informacoes a{
+    font-size: 1.2rem;
     display: block;
     color: grey;
+    margin: 0;
     margin-right: 2rem;
 }
 
