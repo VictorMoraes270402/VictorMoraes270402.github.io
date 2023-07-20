@@ -55,7 +55,9 @@ a{
     align-items: center;
 }
 
-.container2 span{
+.container2 h2{
+    font-size: 1.2rem;
+    margin: 0;
     color: grey;
 }
 

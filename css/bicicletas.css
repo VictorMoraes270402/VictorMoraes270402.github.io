@@ -154,6 +154,10 @@ a{
     width: 150px;
 }
 
+.compra a:hover{
+    background-color: rgb(206, 134, 0)
+}
+
 .compra a img{
     align-self: center;
     margin-left: 1rem;
